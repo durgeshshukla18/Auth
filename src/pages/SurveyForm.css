@@ -1,0 +1,45 @@
+.dialog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.dialog-title {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 1rem;
+}
+
+.dialog-content {
+  width: 100%;
+  max-width: 500px;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.text-field {
+  margin-bottom: 1rem;
+}
+
+.submit-button {
+  background-color: #1976d2;
+  color: white;
+  &:hover {
+    background-color: #1565c0;
+  }
+}
+
+.cancel-button {
+  color: #d32f2f;
+}
+
+@media (max-width: 600px) {
+  .dialog-content {
+    padding: 1rem;
+  }
+}
