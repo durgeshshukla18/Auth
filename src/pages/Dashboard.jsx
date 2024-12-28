@@ -80,19 +80,19 @@ const Dashboard = () => {
                     </Grid>
                     <Grid item xs={12}>
                         <Paper sx={{ p: 2 }}>
-                            <Typography variant="h6">Feedback</Typography>
+{/*                             <Typography variant="h6">Feedback</Typography>
                             <ul>
                                 {userInfo.feedback.map((feedback, index) => (
                                     <li key={index}>{feedback.feedback}</li>
                                 ))}
                             </ul>
-                        </Paper>
+                        </Paper> */}
                     </Grid>
                 </Grid>
-                <Button variant="contained" color="primary" onClick={handleOpen} sx={{ mt: 2 }}>
+{/*                 <Button variant="contained" color="primary" onClick={handleOpen} sx={{ mt: 2 }}>
                     Open Survey Form
                 </Button>
-                <SurveyForm open={open} handleClose={handleClose} />
+                <SurveyForm open={open} handleClose={handleClose} /> */}
             </Box>
         </Container>
     );
